@@ -1,0 +1,41 @@
+POST http://localhost:5000/auth/register
+content-type: application/json
+
+{
+    "lastname": "lastname",
+    "firstname": "firstname",
+    "email": "new@account.com",
+    "phone": "01234567890",
+    "password": "Q1w2e3r$"
+}
+###
+POST http://localhost:5000/auth/login
+content-type: application/json
+
+{
+    "email": "sh3riff101@gmail.com",
+    "password": "Q1w2e3r$"
+}
+###
+
+POST http://localhost:5000/auth/login
+content-type: application/json
+
+{
+    "email": "new@account.com",
+    "password": "Q1w2e3r$"
+}
+###
+GET http://localhost:5000/user/accountDetails/2020202020
+###
+GET http://localhost:5000/user/verifyAccount/2020202020
+###
+PATCH  http://localhost:5000/user/transfer/2020202020
+content-type: application/json
+
+{
+    "bank": "Demo Bank",
+    "receiver": "2020202020",
+    "amount": "2000",
+}
+###
