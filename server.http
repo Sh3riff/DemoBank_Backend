@@ -28,7 +28,8 @@ content-type: application/json
 ###
 GET http://localhost:5000/user/accountDetails/2020202020
 ###
-GET http://localhost:5000/user/verifyAccount/2020202020
+# GET http://localhost:5000/user/verifyAccount/2020202020
+GET https://1decvg9dn5.execute-api.us-east-1.amazonaws.com/Prod/user/verifyAccount/2020202020
 ###
 PATCH  http://localhost:5000/user/transfer/2020202020
 content-type: application/json
