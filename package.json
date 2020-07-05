@@ -1,24 +1,21 @@
 {
-  "name": "bankapp_server",
+  "name": "amplifyBankapp",
   "version": "1.0.0",
-  "description": "Express server for my bank App",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
-  },
-  "author": "sh3riff",
-  "license": "ISC",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "aws-serverless-express": "^3.3.8",
-    "bcrypt": "^4.0.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.10"
+    "mongoose": "^5.9.20",
+    "password-crypt": "^2.2.0"
   },
-  "devDependencies": {
-    "dotenv": "^8.2.0"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
